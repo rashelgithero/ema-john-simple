@@ -6,7 +6,7 @@ import Product from '../Product/Product';
 import Card from '../Card/Card';
 import {addToDataBaseCart, getDataBaseCart} from '../../utilities/dataBaseManager';
 import { Link } from 'react-router-dom';
-import Header from '../Header/Header';
+
 
 
 const Shop = () => {

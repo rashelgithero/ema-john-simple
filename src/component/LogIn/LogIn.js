@@ -121,7 +121,9 @@ function LogIn() {
       {user.success && 
       <div style={{color: 'green'}}> 
         <h3>{newUser &&'User Created Successfully'}</h3>
-      </div>}
+      </div>
+      }
+      {logInUser.email && <h3>Logged In successfully</h3>}
       
 
     </div>
