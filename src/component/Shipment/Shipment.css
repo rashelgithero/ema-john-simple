@@ -1,0 +1,28 @@
+.ship-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ship-form input{
+    margin-top: 30px;
+    padding: 10px 10px;
+    display: flex;
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    font-size: 20px;
+}
+ h3{
+    font-size: 25px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#submitBtn{
+    justify-content: center;
+}
+#errors{
+    color: red;
+    margin-bottom: 10px;
+}

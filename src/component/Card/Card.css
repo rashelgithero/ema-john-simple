@@ -1,0 +1,25 @@
+.order-summary{
+    text-align: end;
+    
+    
+}
+.review{
+    text-align: center;
+}
+.review .link{
+    background-color: green;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: none;
+    
+
+    &:hover{
+        background-color: rgb(0, 0, 0);
+    }
+}
