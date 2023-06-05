@@ -1,7 +1,7 @@
 
 import { useContext, useState } from 'react';
 import { userContext } from '../../App.js';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { createUsersWithEmailAndPassword, handleFbSignIn, handleGoogleSignIn, handleSignOut, initializeLogInFrameWork, signInUserWithEmailAndPassword } from './LogInManager.js';
 
 
@@ -121,7 +121,6 @@ function LogIn() {
       {user.success && 
       <div style={{color: 'green'}}> 
         <h3>{newUser &&'User Created Successfully'}</h3>
-        <button onClick={ () => navigate('/login')}>Please Sign In</button>
       </div>}
       
 
